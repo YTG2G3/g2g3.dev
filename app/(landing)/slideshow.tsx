@@ -201,24 +201,10 @@ export default function Slideshow() {
             style={{ width: "50vw" }}
           />
         </ParallaxLayer>
-
-        <ParallaxLayer
-          offset={4.05}
-          speed={-0.6}
-          style={{
-            display: "flex",
-            alignItems: "center",
-            justifyContent: "end",
-            pointerEvents: "none",
-          }}
-        >
-          <span className="mr-3">
-            Copyright &copy; {new Date().getFullYear()} Taeksoo Kwon. All rights
-            reserved.
-          </span>
-        </ParallaxLayer>
       </Parallax>
       <ScrollChev scrolled={scrolled} />
     </>
   );
 }
+
+// TODO: Copyright &copy; {new Date().getFullYear()} Taeksoo Kwon. All rights reserved.
