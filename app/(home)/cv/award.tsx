@@ -3,6 +3,21 @@ export default function CVAward() {
     <div className="flex flex-col space-y-2">
       <section className="flex flex-col">
         <div className="flex justify-between">
+          <h1>Corona Host Lions Scholarship</h1>
+          <h1>$1000 (2024)</h1>
+        </div>
+        <span>Corona Host Lions</span>
+        <ul className="ml-8 list-disc">
+          <li>
+            <span>
+              Created a website for the club to promote their events and service
+              projects.
+            </span>
+          </li>
+        </ul>
+      </section>
+      <section className="flex flex-col">
+        <div className="flex justify-between">
           <h1>Riverside County Programming Competition</h1>
           <h1>1st Place (2021, 2022, 2024), 2nd Place (2023)</h1>
         </div>
