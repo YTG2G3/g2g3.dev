@@ -42,105 +42,105 @@ export default function Slideshow() {
 
         <ParallaxLayer offset={1} speed={0.8} style={{ opacity: 0.1 }}>
           <Image
-            src={'/cloud.svg'}
+            src={"/cloud.svg"}
             alt="cloud"
             width={800}
             height={800}
-            style={{ display: 'block', width: '20%', marginLeft: '55%' }}
+            style={{ display: "block", width: "20%", marginLeft: "55%" }}
           />
           <Image
-            src={'/cloud.svg'}
+            src={"/cloud.svg"}
             alt="cloud"
             width={800}
             height={800}
-            style={{ display: 'block', width: '10%', marginLeft: '15%' }}
+            style={{ display: "block", width: "10%", marginLeft: "15%" }}
           />
         </ParallaxLayer>
 
         <ParallaxLayer offset={1.75} speed={0.5} style={{ opacity: 0.1 }}>
           <Image
-            src={'/cloud.svg'}
+            src={"/cloud.svg"}
             alt="cloud"
             width={800}
             height={800}
-            style={{ display: 'block', width: '20%', marginLeft: '70%' }}
+            style={{ display: "block", width: "20%", marginLeft: "70%" }}
           />
           <Image
-            src={'/cloud.svg'}
+            src={"/cloud.svg"}
             alt="cloud"
             width={800}
             height={800}
-            style={{ display: 'block', width: '20%', marginLeft: '40%' }}
+            style={{ display: "block", width: "20%", marginLeft: "40%" }}
           />
         </ParallaxLayer>
 
         <ParallaxLayer offset={1} speed={0.2} style={{ opacity: 0.2 }}>
           <Image
-            src={'/cloud.svg'}
+            src={"/cloud.svg"}
             alt="cloud"
             width={800}
             height={800}
-            style={{ display: 'block', width: '10%', marginLeft: '10%' }}
+            style={{ display: "block", width: "10%", marginLeft: "10%" }}
           />
           <Image
-            src={'/cloud.svg'}
+            src={"/cloud.svg"}
             alt="cloud"
             width={800}
             height={800}
-            style={{ display: 'block', width: '20%', marginLeft: '75%' }}
+            style={{ display: "block", width: "20%", marginLeft: "75%" }}
           />
         </ParallaxLayer>
 
         <ParallaxLayer offset={1.6} speed={-0.1} style={{ opacity: 0.4 }}>
           <Image
-            src={'/cloud.svg'}
+            src={"/cloud.svg"}
             alt="cloud"
             width={800}
             height={800}
-            style={{ display: 'block', width: '20%', marginLeft: '60%' }}
+            style={{ display: "block", width: "20%", marginLeft: "60%" }}
           />
           <Image
-            src={'/cloud.svg'}
+            src={"/cloud.svg"}
             alt="cloud"
             width={800}
             height={800}
-            style={{ display: 'block', width: '25%', marginLeft: '30%' }}
+            style={{ display: "block", width: "25%", marginLeft: "30%" }}
           />
           <Image
-            src={'/cloud.svg'}
+            src={"/cloud.svg"}
             alt="cloud"
             width={800}
             height={800}
-            style={{ display: 'block', width: '10%', marginLeft: '80%' }}
+            style={{ display: "block", width: "10%", marginLeft: "80%" }}
           />
         </ParallaxLayer>
 
         <ParallaxLayer offset={2.6} speed={0.4} style={{ opacity: 0.6 }}>
           <Image
-            src={'/cloud.svg'}
+            src={"/cloud.svg"}
             alt="cloud"
             width={800}
             height={800}
-            style={{ display: 'block', width: '20%', marginLeft: '5%' }}
+            style={{ display: "block", width: "20%", marginLeft: "5%" }}
           />
           <Image
-            src={'/cloud.svg'}
+            src={"/cloud.svg"}
             alt="cloud"
             width={800}
             height={800}
-            style={{ display: 'block', width: '15%', marginLeft: '75%' }}
+            style={{ display: "block", width: "15%", marginLeft: "75%" }}
           />
         </ParallaxLayer>
 
-        <ParallaxLayer offset={3.2} speed={0.3}>
+        <ParallaxLayer offset={3.3} speed={0.3}>
           <div className="w-[20%] ml-[5%] relative animate-pulse cursor-pointer">
             <Image
-              src={'/cloud.svg'}
+              src={"/cloud.svg"}
               alt="cloud"
               width={0}
               height={0}
               sizes="100%"
-              onClick={() => router.push('/portfolio')}
+              onClick={() => router.push("/portfolio")}
               className="invert w-[100%] h-auto"
             />
             <div className="absolute inset-0 m-auto w-min h-min">
@@ -149,15 +149,15 @@ export default function Slideshow() {
           </div>
         </ParallaxLayer>
 
-        <ParallaxLayer offset={3} speed={-0.2}>
+        <ParallaxLayer offset={3.15} speed={-0.2}>
           <div className="w-[15%] ml-[45%] relative animate-pulse cursor-pointer">
             <Image
-              src={'/cloud.svg'}
+              src={"/cloud.svg"}
               alt="cloud"
               width={0}
               height={0}
               sizes="100%"
-              onClick={() => router.push('/cv')}
+              onClick={() => router.push("/cv")}
               className="invert w-[100%] h-auto"
             />
             <div className="absolute inset-0 m-auto w-min h-min">
@@ -169,12 +169,12 @@ export default function Slideshow() {
         <ParallaxLayer offset={3.3} speed={-0.6}>
           <div className="w-[25%] ml-[70%] relative animate-pulse cursor-pointer">
             <Image
-              src={'/cloud.svg'}
+              src={"/cloud.svg"}
               alt="cloud"
               width={0}
               height={0}
               sizes="100%"
-              onClick={() => router.push('/contact')}
+              onClick={() => router.push("/contact")}
               className="invert w-[100%] h-auto"
             />
             <div className="absolute inset-0 m-auto w-min h-min">
@@ -187,18 +187,18 @@ export default function Slideshow() {
           offset={3.5}
           speed={-0.6}
           style={{
-            display: 'flex',
-            alignItems: 'center',
-            justifyContent: 'center',
-            pointerEvents: 'none',
+            display: "flex",
+            alignItems: "center",
+            justifyContent: "center",
+            pointerEvents: "none",
           }}
         >
           <Image
-            src={'/earth.png'}
+            src={"/earth.png"}
             alt="Earth"
             width={800}
             height={800}
-            style={{ width: '50vw' }}
+            style={{ width: "50vw" }}
           />
         </ParallaxLayer>
 
@@ -206,10 +206,10 @@ export default function Slideshow() {
           offset={4.05}
           speed={-0.6}
           style={{
-            display: 'flex',
-            alignItems: 'center',
-            justifyContent: 'end',
-            pointerEvents: 'none',
+            display: "flex",
+            alignItems: "center",
+            justifyContent: "end",
+            pointerEvents: "none",
           }}
         >
           <span className="mr-3">
