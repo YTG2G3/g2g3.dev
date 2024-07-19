@@ -78,7 +78,7 @@
   }
 
   span {
-    @apply !font-suit !font-light;
+    @apply !font-suite !font-light;
   }
   h1,
   h2,
@@ -86,7 +86,7 @@
   h4,
   h5,
   h6 {
-    @apply !font-suit !font-semibold;
+    @apply !font-suite !font-semibold;
   }
 }
 

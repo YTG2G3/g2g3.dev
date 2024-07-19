@@ -74,7 +74,7 @@ const config = {
       },
       fontFamily: {
         wanted: ['var(--font-wanted-sans)'],
-        suit: ['var(--font-suit)'],
+        suite: ['var(--font-suite)'],
       },
     },
   },

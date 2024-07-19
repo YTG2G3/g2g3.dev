@@ -1,5 +1,5 @@
 import RootProvider from '@/components/root-provider';
-import { suit, wantedSans } from '@/lib/fonts';
+import { suite, wantedSans } from '@/lib/fonts';
 import { cn } from '@/lib/utils';
 import type { Metadata } from 'next';
 import './globals.css';
@@ -16,7 +16,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={cn(wantedSans.variable, suit.variable)}>
+      <body className={cn(wantedSans.variable, suite.variable)}>
         <RootProvider>{children}</RootProvider>
       </body>
     </html>

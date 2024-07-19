@@ -17,19 +17,19 @@ export const wantedSans = localFont({
   variable: '--font-wanted-sans',
 });
 
-export const suit = localFont({
+export const suite = localFont({
   src: [
     {
-      path: '../fonts/SUIT-Light.ttf',
+      path: '../fonts/SUITE-Light.ttf',
       weight: '300',
       style: 'normal',
     },
     {
-      path: '../fonts/SUIT-SemiBold.ttf',
+      path: '../fonts/SUITE-SemiBold.ttf',
       weight: '600',
       style: 'normal',
     },
   ],
   display: 'swap',
-  variable: '--font-suit',
+  variable: '--font-suite',
 });
