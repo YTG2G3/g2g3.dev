@@ -3,21 +3,16 @@ export default function CVEmployment() {
     <div className="flex flex-col space-y-2">
       <section className="flex flex-col">
         <div className="flex justify-between">
-          <h1>Vertix Fellows</h1>
+          <h1>Forge Rewards</h1>
           <h1>2024 - Present</h1>
         </div>
         <span>Software Engineer</span>
         <ul className="ml-8 list-disc">
           <li>
             <span>
-              Worked as fullstack developer for start-ups such as OBTechnology,
-              Igor, and ForgeRewards.
-            </span>
-          </li>
-          <li>
-            <span>
-              Utilized Next.JS, React Native, and Swift frameworks to fulfill
-              client needs.
+              Developed an interactive company website using Next.JS and Framer
+              Motion for Forge Rewards, a Y Combinator-backed startup
+              centralizing loyalty programs for restaurants and stores.
             </span>
           </li>
         </ul>
@@ -31,9 +26,8 @@ export default function CVEmployment() {
         <ul className="ml-8 list-disc">
           <li>
             <span>
-              Developed a fullstack event/staff management web application for
-              Centennial High School. Planned to expand to other schools within
-              Corona-Norco Unified School District.
+              Providing SaaS to public schools for task automation as an
+              official vendor of Corona-Norco Unified School District.
             </span>
           </li>
           <li>
@@ -44,8 +38,9 @@ export default function CVEmployment() {
           </li>
           <li>
             <span>
-              Mainly used Next.JS and React Native frameworks to develop
-              multiplatform applications.
+              Partnered with Corona City branch of Lions International and
+              student organization at Centennial High School to nurture future
+              software engineers with work opportunities.
             </span>
           </li>
         </ul>
@@ -101,6 +96,27 @@ export default function CVEmployment() {
               Partnered with Gangdong school district, serving 50 schools in
               South Korea and inspiring students to consider pursuing computer
               science further.
+            </span>
+          </li>
+        </ul>
+      </section>
+      <section className="flex flex-col">
+        <div className="flex justify-between">
+          <h1>Vertix Fellows</h1>
+          <h1>2024</h1>
+        </div>
+        <span>Software Engineer</span>
+        <ul className="ml-8 list-disc">
+          <li>
+            <span>
+              Worked as fullstack developer for start-ups such as OBTechnology,
+              Igor, and ForgeRewards.
+            </span>
+          </li>
+          <li>
+            <span>
+              Utilized Next.JS, React Native, and Swift frameworks to fulfill
+              client needs.
             </span>
           </li>
         </ul>

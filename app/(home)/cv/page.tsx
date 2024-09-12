@@ -10,7 +10,7 @@ export default function CV() {
     <main className="flex flex-col justify-center px-10 py-5 space-y-3">
       <section className="flex flex-col items-center justify-center space-y-2">
         <div>
-          <h1 className="text-3xl">Taeksoo (Henry) Kwon</h1>
+          <h1 className="text-3xl">Henry (Taeksoo) Kwon</h1>
           <span>Fullstack | Korean developer in California.</span>
         </div>
         <CVLinks />

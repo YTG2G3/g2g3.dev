@@ -6,10 +6,15 @@ import useScrolled from '@/lib/hook/use-scrolled';
 import { Parallax, ParallaxLayer } from '@react-spring/parallax';
 import Image from 'next/image';
 import { useRouter } from 'next/navigation';
+import { useEffect } from 'react';
 
 export default function Slideshow() {
-  const { scrolled, objRef } = useScrolled();
+  const { scrolled, hitBottom, objRef } = useScrolled();
   const router = useRouter();
+
+  useEffect(() => {
+    if (hitBottom) router.push('/contact');
+  }, [hitBottom, router]);
 
   return (
     <>
@@ -24,7 +29,6 @@ export default function Slideshow() {
         </ParallaxLayer>
 
         <ParallaxLayer offset={1} speed={1} className="bg-amber-600/50" />
-        <ParallaxLayer offset={3} speed={1} className="bg-indigo-300" />
 
         <ParallaxLayer
           offset={1.3}
@@ -129,76 +133,6 @@ export default function Slideshow() {
             width={800}
             height={800}
             style={{ display: 'block', width: '15%', marginLeft: '75%' }}
-          />
-        </ParallaxLayer>
-
-        <ParallaxLayer offset={3.3} speed={0.3}>
-          <div className="w-[20%] ml-[5%] relative animate-pulse cursor-pointer">
-            <Image
-              src={'/cloud.svg'}
-              alt="cloud"
-              width={0}
-              height={0}
-              sizes="100%"
-              onClick={() => router.push('/portfolio')}
-              className="invert w-[100%] h-auto"
-            />
-            <div className="absolute inset-0 m-auto w-min h-min">
-              <h1 className="text-[2vw]">Portfolio</h1>
-            </div>
-          </div>
-        </ParallaxLayer>
-
-        <ParallaxLayer offset={3.15} speed={-0.2}>
-          <div className="w-[15%] ml-[45%] relative animate-pulse cursor-pointer">
-            <Image
-              src={'/cloud.svg'}
-              alt="cloud"
-              width={0}
-              height={0}
-              sizes="100%"
-              onClick={() => router.push('/cv')}
-              className="invert w-[100%] h-auto"
-            />
-            <div className="absolute inset-0 m-auto w-min h-min">
-              <h1 className="text-[1.5vw]">CV</h1>
-            </div>
-          </div>
-        </ParallaxLayer>
-
-        <ParallaxLayer offset={3.3} speed={-0.6}>
-          <div className="w-[25%] ml-[70%] relative animate-pulse cursor-pointer">
-            <Image
-              src={'/cloud.svg'}
-              alt="cloud"
-              width={0}
-              height={0}
-              sizes="100%"
-              onClick={() => router.push('/contact')}
-              className="invert w-[100%] h-auto"
-            />
-            <div className="absolute inset-0 m-auto w-min h-min">
-              <h1 className="text-[3vw]">Contact</h1>
-            </div>
-          </div>
-        </ParallaxLayer>
-
-        <ParallaxLayer
-          offset={3.5}
-          speed={-0.6}
-          style={{
-            display: 'flex',
-            alignItems: 'center',
-            justifyContent: 'center',
-            pointerEvents: 'none',
-          }}
-        >
-          <Image
-            src={'/earth.png'}
-            alt="Earth"
-            width={800}
-            height={800}
-            style={{ width: '50vw' }}
           />
         </ParallaxLayer>
       </Parallax>

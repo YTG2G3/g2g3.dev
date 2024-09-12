@@ -4,7 +4,7 @@ export default function CVAward() {
       <section className="flex flex-col">
         <div className="flex justify-between">
           <h1>Corona Host Lions Scholarship</h1>
-          <h1>$1000 (2024)</h1>
+          <h1>$500 (2024)</h1>
         </div>
         <span>Corona Host Lions</span>
         <ul className="ml-8 list-disc">
